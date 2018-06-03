@@ -28,6 +28,8 @@ t.addChannel("printArray", sys.stdout)
 #t.addChannel("printColor2", sys.stdout)
 t.addChannel("receiveColor", sys.stdout)
 t.addChannel("printStep", sys.stdout)
+t.addChannel("receiveColor", sys.stdout)
+t.addChannel("printSntMsgCount", sys.stdout)
 
 
 

@@ -1,0 +1,6 @@
+**/_TOSSIM.dll
+**/simbuild/
+**/TOSSIM.py
+**/TOSSIM.pyc
+**/app.xml
+#**/.gitignore
