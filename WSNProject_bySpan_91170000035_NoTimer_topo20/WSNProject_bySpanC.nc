@@ -240,7 +240,7 @@ implementation {
 					
 				currentState = STATE_BLACK;
 					
-				dbg("printColor","\n\n ************* Mote-(%d) - BLACK ********* \n\n", TOS_NODE_ID);
+				dbg("printColor","\n\n [ %s ] ************* Mote-(%d) - BLACK ********* \n\n", sim_time_string(), TOS_NODE_ID);
 				
 				decreaseSpans();
 			}else{
@@ -437,7 +437,7 @@ implementation {
 						myColor = GRAY;
 						sendBroadcastMessage(GRAY);
 						
-						dbg("printColor","\n\n ************* Mote-(%d) - GRAY ********* \n\n", TOS_NODE_ID);
+						dbg("printColor","\n\n [ %s ] ************* Mote-(%d) - GRAY ********* \n\n", sim_time_string(), TOS_NODE_ID);
 					}
 					
 					break;
